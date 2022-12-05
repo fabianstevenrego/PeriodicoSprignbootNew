@@ -1,4 +1,4 @@
-package com.example.crud.periodico.controller;
+package com.example.demo.controlador;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,18 +10,20 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.crud.periodico.entities.Categoria;
-import com.example.crud.periodico.entities.CategoriaNoticia;
-import com.example.crud.periodico.repository.CategoriaRepository;
+import com.example.demo.modelo.Categoria;
+import com.example.demo.modelo.CategoriaNoticia;
+import com.example.demo.modelo.Noticia;
+import com.example.demo.repositorio.CategoriaNoticiaRepository;
+import com.example.demo.repositorio.CategoriaRepository;
 
 @RestController
 @RequestMapping("/categoria")
 @CrossOrigin
 public class CategoriaController {
-	@Autowired
+    @Autowired
 	CategoriaRepository categoriaRepository;
 	
-	@GetMapping
+	@GetMapping("/listar")
 	public List<Categoria>lista(){
 		return categoriaRepository.findAll();
 	}
@@ -34,8 +36,17 @@ public class CategoriaController {
 		}
 		return null;
 	}
-	
-	
-	
 
+    @GetMapping("/{nombre}/listNoticias")
+	public List<CategoriaNoticia> getNoticiasbyNombre(@PathVariable String nombre) {
+		
+		Optional<Categoria> categoria = categoriaRepository.findByNombre(nombre);
+		
+		if(categoria.isPresent()) {
+			return categoria.get().getNoticias();
+		}
+		return null;
+	}
+	
+	
 }

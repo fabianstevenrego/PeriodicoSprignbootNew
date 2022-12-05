@@ -1,13 +1,13 @@
-package com.example.crud.periodico;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PeriodicoApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PeriodicoApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
