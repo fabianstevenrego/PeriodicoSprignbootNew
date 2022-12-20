@@ -1,0 +1,176 @@
+[
+   {
+      "id": 19,
+      "noticia": {
+         "id": 19,
+         "titulo": "En esto quedará el salario mínimo en Colombia para el 2023",
+         "contenido": "El salario mínimo pasará de 1.000.000 pesos colombianos (US$ 209 al tipo de cambio actual) a 1.160.000 (US$ 242), un aumento del 16%.",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://cnnespanol.cnn.com/wp-content/uploads/2022/12/colombia-salario-minimo-2023-e1671137454338.jpg?quality=100&strip=info&w=780&h=438&crop=1"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 21
+   },
+   {
+      "id": 20,
+      "noticia": {
+         "id": 20,
+         "titulo": "Gobierno de Colombia y grupo guerrillero ELN llegan a acuerdo sobre retorno de comunidades indígenas desplazadas",
+         "contenido": "El presidente de Colombia, Gustavo Petro, anunció que la delegación del Gobierno y representantes del grupo guerrillero Ejército de Liberación Nacional (ELN), firmaron un acuerdo preliminar para promover el retorno de las comunidades indígenas desplazadas internas a sus territorios como parte de las negociaciones de paz que se llevan a cabo en Caracas, Venezuela.",
+         "id_usuario": 3,
+         "estado": "aprobado",
+         "url_imagen": "https://cnnespanol.cnn.com/wp-content/uploads/2022/08/220821201443-eln-colombia-full-169.jpg?quality=100&strip=info&w=300&h=170&crop=1"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 23
+   },
+   {
+      "id": 21,
+      "noticia": {
+         "id": 21,
+         "titulo": "'Cristiano Ronaldo amenazó con irse de Portugal': la noticia que estremece Qatar",
+         "contenido": "Cristiano Ronaldo, en su quinto Mundial, entre su destino futuro aún por concretar de forma definitiva después de forzar su salida del Manchester United con unas declaraciones antes del Mundial, su gesto a Fernando Santos al final de la derrota por 2-1 contra Corea del Sur y la noticia publicada este jueves por 'Récord' de que amenazó con abandonar el torneo cuando conoció su suplencia ante Suiza, negada por la Federación Portuguesa de Fútbol, lo domina un estado de turbulencia, a dos días de enfrentarse a Marruecos en los cuartos de final, con la duda de si recuperará o no la titularidad.\r\n\r\nNo hay pausa en el debate que pone al astro luso, al futbolista con más partidos (195) y más goles (118) con la selección, en el centro de todo en Portugal, desde el principio hasta ahora, desde que su equipo aterrizó en Catar, entre cómo influirían todas sus declaraciones sobre el Manchester United, en la relación con sus compañeros como Bruno Fernandes (incluso, entonces, Cristiano compareció de forma sorpresiva ante la prensa); cómo es su liderazgo en el conjunto luso, cómo se tomó que no le dieran el gol ante Uruguay, su reacción con el entrenador tras el 2-1 ante Corea del Sur, su relevo al banquillo en unos octavos de final del Mundial... Y, ahora, su reacción a una suplencia inesperada.\r\n\r\n\"Una noticia publicada el jueves dice que Cristiano Ronaldo amenazó con abandonar el equipo nacional durante una conversación con Fernando Santos, seleccionador nacional. La FPF (Federación Portuguesa de Fútbol) aclara que en ningún momento el capitán de la selección, Cristiano Ronaldo, amenazó con abandonar la selección durante la concentración en Catar\", salió el paso el organismo en su web oficial, cuando asoman los cuartos de final.\r\n\r\nEl comunicado surgió después de la información publicada por 'Récord', que afirmó que Cristiano Ronaldo \"amenazó con irse\" de la concentración del Mundial 2022 en \"una acalorada conversación con Fernando Santos\", el seleccionador nacional, aunque luego el capitán \"se calmó, reflexionó y cambió de opinión\".\r\n\r\nTambién asegura que el \"grupo\" se quedó \"al margen\" de tal situación, según refleja el diario.\r\n\r\nLa defensa de la FPF fue más allá en sus cinco párrafos publicados a mediodía desde su concentración de Al Shahaniya, al oeste de Doha.\r\n\r\n\"Cristiano Ronaldo construye cada día una trayectoria única al servicio de la selección y del país que tiene que ser respetada y que da fe del incuestionable compromiso con la selección. De hecho, el grado de entrega del jugador más veces internacional con Portugal fue demostrado de nuevo, si es necesario hacerlo, en la victoria frente a Suiza en los octavos de final del Mundial 2022\", remarcó la nota, horas antes de que el equipo se entrene con la vista en Marruecos.",
+         "id_usuario": 4,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_content_new/uploads/2022/12/07/6390ab5d18d73.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 43434
+   },{
+      "id": 22,
+      "noticia": {
+         "id": 22,
+         "titulo": "Fue a la panaderia por pan y le dieron pan pan",
+         "contenido": "No aguantó dos tiros en la frente",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://www.cocinatis.com/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_desktop_horizontal_full_width.jpg"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 21
+   },
+   {
+      "id": 23,
+      "noticia": {
+         "id": 23,
+         "titulo": "lorem ipsum",
+         "contenido": "lorem ipsum de toda la vida",
+         "id_usuario": 3,
+         "estado": "aprobado",
+         "url_imagen": "https://ihdemu.com/images/blog/que-es-lorem-ipsum.jpg"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 23
+   },
+   {
+      "id": 24,
+      "noticia": {
+         "id": 24,
+         "titulo": "Estos son los días festivos y puentes en Colombia para 2023",
+         "contenido": "Los días festivos oficiales en Colombia están marcados por ley 'Emiliani' o ley 51 de 1983 como no laborales.",
+         "id_usuario": 4,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_content_new/uploads/2022/12/07/6390ab5d18d73.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 43434
+   },{
+      "id": 25,
+      "noticia": {
+         "id": 25,
+         "titulo": "Fue a la panaderia por pan y le dieron pan pan",
+         "contenido": "No aguantó dos tiros en la frente",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://www.cocinatis.com/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_desktop_horizontal_full_width.jpg"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 21
+   },
+   {
+      "id": 26,
+      "noticia": {
+         "id": 26,
+         "titulo": "lorem ipsum",
+         "contenido": "lorem ipsum de toda la vida",
+         "id_usuario": 3,
+         "estado": "aprobado",
+         "url_imagen": "https://ihdemu.com/images/blog/que-es-lorem-ipsum.jpg"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 23
+   },
+   {
+      "id": 27,
+      "noticia": {
+         "id": 27,
+         "titulo": "'Cristiano Ronaldo amenazó con irse de Portugal': la noticia que estremece Qatar",
+         "contenido": "Cristiano Ronaldo, en su quinto Mundial, entre su destino futuro aún por concretar de forma definitiva después de forzar su salida del Manchester United con unas declaraciones antes del Mundial, su gesto a Fernando Santos al final de la derrota por 2-1 contra Corea del Sur y la noticia publicada este jueves por 'Récord' de que amenazó con abandonar el torneo cuando conoció su suplencia ante Suiza, negada por la Federación Portuguesa de Fútbol, lo domina un estado de turbulencia, a dos días de enfrentarse a Marruecos en los cuartos de final, con la duda de si recuperará o no la titularidad.\r\n\r\nNo hay pausa en el debate que pone al astro luso, al futbolista con más partidos (195) y más goles (118) con la selección, en el centro de todo en Portugal, desde el principio hasta ahora, desde que su equipo aterrizó en Catar, entre cómo influirían todas sus declaraciones sobre el Manchester United, en la relación con sus compañeros como Bruno Fernandes (incluso, entonces, Cristiano compareció de forma sorpresiva ante la prensa); cómo es su liderazgo en el conjunto luso, cómo se tomó que no le dieran el gol ante Uruguay, su reacción con el entrenador tras el 2-1 ante Corea del Sur, su relevo al banquillo en unos octavos de final del Mundial... Y, ahora, su reacción a una suplencia inesperada.\r\n\r\n\"Una noticia publicada el jueves dice que Cristiano Ronaldo amenazó con abandonar el equipo nacional durante una conversación con Fernando Santos, seleccionador nacional. La FPF (Federación Portuguesa de Fútbol) aclara que en ningún momento el capitán de la selección, Cristiano Ronaldo, amenazó con abandonar la selección durante la concentración en Catar\", salió el paso el organismo en su web oficial, cuando asoman los cuartos de final.\r\n\r\nEl comunicado surgió después de la información publicada por 'Récord', que afirmó que Cristiano Ronaldo \"amenazó con irse\" de la concentración del Mundial 2022 en \"una acalorada conversación con Fernando Santos\", el seleccionador nacional, aunque luego el capitán \"se calmó, reflexionó y cambió de opinión\".\r\n\r\nTambién asegura que el \"grupo\" se quedó \"al margen\" de tal situación, según refleja el diario.\r\n\r\nLa defensa de la FPF fue más allá en sus cinco párrafos publicados a mediodía desde su concentración de Al Shahaniya, al oeste de Doha.\r\n\r\n\"Cristiano Ronaldo construye cada día una trayectoria única al servicio de la selección y del país que tiene que ser respetada y que da fe del incuestionable compromiso con la selección. De hecho, el grado de entrega del jugador más veces internacional con Portugal fue demostrado de nuevo, si es necesario hacerlo, en la victoria frente a Suiza en los octavos de final del Mundial 2022\", remarcó la nota, horas antes de que el equipo se entrene con la vista en Marruecos.",
+         "id_usuario": 4,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_content_new/uploads/2022/12/07/6390ab5d18d73.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 43434
+   },
+   {
+      "id": 28,
+      "noticia": {
+         "id": 28,
+         "titulo": "Inglaterra recibe excelente noticia antes de enfrentar a Francia en Qatar\r\n",
+         "contenido": "Después de viajar a Inglaterra para apoyar a su familia luego de un robo en su mansión al sur de Londres, el delantero inglés Raheem Sterling se reincorporará el viernes a la selección en Qatar, un día antes de los cuartos de final contra Francia, anunció este jueves la Federación Inglesa de Fútbol (FA).\r\n\r\nLas informaciones de la prensa inglesa afirmaban que la familia del atacante del Chelsea estaba presente cuando hombres armados entraron por la fuerza en su residencia situada en Surrey.\r\n\r\nPero la policía local precisó en un comunicado que el robo se constató cuando se fueron los ladrones y que nadie fue amenazado.\r\n\r\nFutbolista con más partidos como internacional de los 26 ingleses convocados, con 81 partidos (20 goles, 27 asistencias), Sterling quizás entre en la convocatoria, pero es poco probable que juegue después de cuatro días sin entrenarse con el grupo dirigido por Gareth Southgate. \r\n\r\n\r\nAFP",
+         "id_usuario": 5,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_main/uploads/2022/12/06/638f89f336fca.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 5454
+   },
+   {
+      "id": 30,
+      "noticia": {
+         "id": 30,
+         "titulo": "Luis Enrique deja de ser el técnico de España  tras eliminación del Mundial",
+         "contenido": "La Federación Española (RFEF) anunció este jueves el cese del seleccionador español\r\nLuis Enrique Martínez, tras la eliminación en octavos de final del Mundial de Qatar frente a Marruecos, y su sustitución por Luis de la Fuente.\r\n\r\nEl organismo considera que \"debe arrancar un nuevo proyecto para la Selección Española de Fútbol, con el objetivo de continuar con el crecimiento alcanzado en los últimos años gracias al trabajo realizado por Luis Enrique\", señaló la federación en un comunicado, agradeciendo al técnico su trabajo.\r\n",
+         "id_usuario": 5,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_main/uploads/2022/12/08/6391da1e01dd1.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 2,
+         "nombre": "Deportes"
+      },
+      "ref": 3434
+   }
+]

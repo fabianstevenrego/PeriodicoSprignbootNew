@@ -1,0 +1,108 @@
+[
+   {
+      "id": 31,
+      "noticia": {
+         "id": 31,
+         "titulo": "Fue a la panaderia por pan y le dieron pan pan",
+         "contenido": "No aguantó dos tiros en la frente",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://www.cocinatis.com/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_desktop_horizontal_full_width.jpg"
+      },
+      "categoria": {
+         "id_categoria": 3,
+         "nombre": "Economía"
+      },
+      "ref": 31
+   },{
+      "id": 32,
+      "noticia": {
+         "id": 32,
+         "titulo": "Fue a la panaderia por pan y le dieron pan pan",
+         "contenido": "No aguantó dos tiros en la frente",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://www.cocinatis.com/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_desktop_horizontal_full_width.jpg"
+      },
+      "categoria": {
+         "id_categoria": 3,
+         "nombre": "Economía"
+      },
+      "ref": 31
+   },{
+      "id": 33,
+      "noticia": {
+         "id":33,
+         "titulo": "Fue a la panaderia por pan y le dieron pan pan",
+         "contenido": "No aguantó dos tiros en la frente",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://www.cocinatis.com/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_desktop_horizontal_full_width.jpg"
+      },
+      "categoria": {
+         "id_categoria": 3,
+         "nombre": "Economía"
+      },
+      "ref": 31
+   },{
+      "id": 34,
+      "noticia": {
+         "id": 34,
+         "titulo": "Fue a la panaderia por pan y le dieron pan pan",
+         "contenido": "No aguantó dos tiros en la frente",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://www.cocinatis.com/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_desktop_horizontal_full_width.jpg"
+      },
+      "categoria": {
+         "id_categoria": 3,
+         "nombre": "Economía"
+      },
+      "ref": 31
+   },{
+      "id": 35,
+      "noticia": {
+         "id": 35,
+         "titulo": "Fue a la panaderia por pan y le dieron pan pan",
+         "contenido": "No aguantó dos tiros en la frente",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://www.cocinatis.com/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_desktop_horizontal_full_width.jpg"
+      },
+      "categoria": {
+         "id_categoria": 3,
+         "nombre": "Economía"
+      },
+      "ref": 31
+   },{
+      "id": 36,
+      "noticia": {
+         "id": 36,
+         "titulo": "Fue a la panaderia por pan y le dieron pan pan",
+         "contenido": "No aguantó dos tiros en la frente",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://www.cocinatis.com/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_desktop_horizontal_full_width.jpg"
+      },
+      "categoria": {
+         "id_categoria": 3,
+         "nombre": "Economía"
+      },
+      "ref": 31
+   },{
+      "id": 37,
+      "noticia": {
+         "id": 37,
+         "titulo": "Fue a la panaderia por pan y le dieron pan pan",
+         "contenido": "No aguantó dos tiros en la frente",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://www.cocinatis.com/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_desktop_horizontal_full_width.jpg"
+      },
+      "categoria": {
+         "id_categoria": 3,
+         "nombre": "Economía"
+      },
+      "ref": 31
+   }
+]

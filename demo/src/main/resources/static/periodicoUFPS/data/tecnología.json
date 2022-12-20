@@ -1,0 +1,145 @@
+[
+   {
+      "id": 1,
+      "noticia": {
+         "id": 1,
+         "titulo": "Las innovaciones de AWS para las empresas",
+         "contenido": "En el marco del AWS Re:Invent 2022 celebrado en Las Vegas, Swami Sivasubramanian, vicepresidente de Datos y Aprendizaje Automático de Amazon Web Services (AWS), reveló las últimas innovaciones de la compañía que pueden ayudar a transformar los datos de las empresas en perspectivas y acciones significativas para su negocios.",
+         "id_usuario": 2,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_main/uploads/2022/12/13/6399408432f06.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 1,
+         "nombre": "Tecnología"
+      },
+      "ref": 89
+   },{
+      "id": 2,
+      "noticia": {
+         "id": 2,
+         "titulo": "Apple permitiría instalar tiendas de terceros en sus dispositivos ",
+         "contenido": "Apple Inc. se está preparando para permitir tiendas de aplicaciones alternativas en sus iPhones y iPads, como parte de una revisión radical destinada a cumplir con los estrictos requisitos de la Unión Europea a partir de 2024.",
+         "id_usuario": 2,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_main/files/crop/uploads/2020/09/11/5f5bef827d161.r_1671052502407.0-0-3000-1498.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 1,
+         "nombre": "Tecnología"
+      },
+      "ref": 89
+   },
+   {
+      "id": 3,
+      "noticia": {
+         "id": 3,
+         "titulo": "Cinco empleos que podrían ser reemplazados con Inteligencia Artificial",
+         "contenido": "Desde la revolución industrial se ha hablado que las máquinas podrán reemplazar al hombre en cualquier momento. De hecho, esto ha ido sucediendo conforme pasan los años y la tecnología avanza.",
+         "id_usuario": 2,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_main/uploads/2022/11/25/6381132914b6f.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 1,
+         "nombre": "Tecnología"
+      },
+      "ref": 89
+   },
+   {
+      "id": 4,
+      "noticia": {
+         "id": 4,
+         "titulo": "Las 'Candid Stories' y los nuevos cambios que llegan a Instagram",
+         "contenido": "Aunque ha recibido críticas de usuarios y creadores de contenido por algunos de sus recientes cambios, Instagram sigue siendo una de las aplicaciones más usadas por las personas para compartir fotografías y videos.",
+         "id_usuario": 2,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_main/uploads/2022/10/06/633f5b65ab51d.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 1,
+         "nombre": "Tecnología"
+      },
+      "ref": 89
+   },
+   {
+      "id": 5,
+      "noticia": {
+         "id": 5,
+         "titulo": "Twitter eliminó cuenta que rastreaba vuelos de Elon Musk y otros famosos",
+         "contenido": "El pasado miércoles, 15 de diciembre, el Twitter de Elon Musk suspendió una cuenta que rastreaba el jet privado del multimillonario.",
+         "id_usuario": 2,
+         "estado": "aprobado",
+         "url_imagen": "https://ww2.ufps.edu.co/public/imagenes/noticia/b1515c1cfc4f61ce61ed5e98bcc996d1.jpg"
+      },
+      "categoria": {
+         "id_categoria": 1,
+         "nombre": "Tecnología"
+      },
+      "ref": 89
+   },
+   {
+      "id": 6,
+      "noticia": {
+         "id": 6,
+         "titulo": "Lo que debe tener en cuenta si quiere comprar una patineta eléctrica",
+         "contenido": "En Bogotá, según el estudio de Statista Research Department, los ciudadanos pierden aproximadamente 94 horas al año a causa de contratiempos y trancones, por lo que las alternativas de movilidad sostenibles toman cada vez más fuerza.",
+         "id_usuario": 2,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/image_284_205/uploads/2022/12/15/639b91a3aa3c4.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 1,
+         "nombre": "Tecnología"
+      },
+      "ref": 89
+   },
+   {
+      "id": 7,
+      "noticia": {
+         "id": 7,
+         "titulo": "OPPO Reno7, el smartphone que reclama su liderazgo en esta Navidad",
+         "contenido": "La tecnología hace parte de la vida diaria de todo ser humano y por eso los celulares se convirtieron en una de las mejores opciones para regalar en Navidad, pues le permite a quien lo reciba compartir, capturar y disfrutar de todos los momentos mágicos que trae consigo esta temporada.",
+         "id_usuario": 2,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/image_284_205/uploads/2022/12/13/6398f653d4b04.png"
+      },
+      "categoria": {
+         "id_categoria": 1,
+         "nombre": "Tecnología"
+      },
+      "ref": 89
+   },
+   {
+      "id": 8,
+      "noticia": {
+         "id": 8,
+         "titulo": "Donald Trump vende imágenes de sí mismo: se lanzó al mercado de los NFT",
+         "contenido": "Son como los de béisbol pero más emocionantes y cuestan 99 dólares cada uno, dijo Donald Trump al presentar este jueves unas tarjetas digitales coleccionables que ponen en un aprieto a sus simpatizantes debido a que aparece caracterizado como vaquero, astronauta o superhéroe.",
+         "id_usuario": 2,
+         "estado": "aprobado",
+         "url_imagen": "https://www.eltiempo.com/files/article_main/uploads/2022/12/15/639bb63006891.jpeg"
+      },
+      "categoria": {
+         "id_categoria": 1,
+         "nombre": "Tecnología"
+      },
+      "ref": 89
+   },
+   {
+      "id": 9,
+      "noticia": {
+         "id": 9,
+         "titulo": "UFPS presentó 28 proyectos investigativos en el XXV Encuentro Nacional de Semilleros RedCOLSI",
+         "contenido": "18 semilleros de investigación de las seis Facultades de la Universidad Francisco de Paula Santander, participaron del XXV Encuentro Nacional y XIX Encuentro Internacional de Semilleros, organizado por la Red Colombiana, RedCOLSI, y llevado a cabo en la ciudad de Medellín.\r\n\r\nAndrea Cacique, coordinadora de Grupos y Semilleros de Investigación, manifestó que de la UFPS se presentaron 28 proyectos y un total de 30 estudiantes quienes acompañaron este evento que tuvo como propósito socializar los avances en investigación, innovación y desarrollo tecnológico de las diferentes temáticas de RedCOLSI.\r\n\r\nLos proyectos participantes, y que son liderados por estudiantes de semilleros de investigación institucional, fueron aquellos que obtuvieron un puntaje igual o superior a 90 puntos en los pasados encuentros departamentales realizados en los nodos de Norte de Santander.\r\n\r\n“Estos encuentros facilitan la creación de escenarios académicos para reconocer el valor y la trascendencia de la investigación formativa ejecutada por los semilleros de investigación y por las instituciones nacionales e internacionales participantes”, afirmó Andrea Cacique.\r\n\r\nJamer Castellanos Fuentes, estudiante UFPS, manifestó que esta experiencia enriquece su proceso académico porque permite mostrar el conocimiento mediante los procesos de investigación, “lo considero como una muy buena oportunidad que nos da la universidad para transmitir todo el proceso investigativo que desarrollamos”.\r\n\r\nFinalmente, la Coordinadora de Grupos y Semilleros de Investigación institucional, expresó que esta participación refleja el interés que tiene la UFPS por incentivar la ruta de formación en investigación con el propósito de fortalecer en los estudiantes las competencias investigativas brindando así mayores oportunidades en el contexto nacional e internacional.",
+         "id_usuario": 1,
+         "estado": "aprobado",
+         "url_imagen": "https://ww2.ufps.edu.co/public/imagenes/noticia/cb7741084c3f11955bc8bc6d79e6a7dd.jpg"
+      },
+      "categoria": {
+         "id_categoria": 1,
+         "nombre": "Tecnología"
+      },
+      "ref": 12
+   }
+]

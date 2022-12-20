@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Q'pacho</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/blog/">
+    <link rel="shortcut icon" href="../data/logoufps.ico" type="image/x-icon">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../css/blog.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<div class="container">
+  <header class="blog-header py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+      </div>
+      <div class="col-4 text-center">
+        <a style="text-decoration: none;" class="blog-header-logo" href="paginaPrincipal.html">Q'Pacho</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
+        </a>
+        <div class="text-end">
+          <a href="login.html" style="color:black ;"> <i class="fa-solid fa-user"></i> </a>
+          
+        </div>
+        
+      </div>
+    </div>
+    </header>
+    <main class="container">
+    <article class="blog-post">
+      <h2 class="blog-post-title">Listar Noticias</h2>
+      <div class="row g-5">
+        
+        <div class="">
+          <form>
+            <div class="row">
+
+              <div class="col-lg-6 col-sm-12">
+                  <label for="startDate">Palabras Clave</label>
+                  <input type="text" class="form-control" placeholder="Ejemplo: prueba; Palabras; busqueda;">
+              </div>
+
+              <div class="col-lg-6 col-md-12">
+                <label for="startDate">Nombre</label>
+                  <input type="text" class="form-control" placeholder="Nombre del escritor">
+              
+              </div>
+
+            </div>
+            <div class="row">
+
+              <div class="col-lg-3 col-sm-6">
+                
+                <label for="inputState">Estado</label>
+                <select id="inputState" class="form-control">
+                  <option selected=""></option>
+                  <option>Aprovado</option>
+                  <option>Espera</option>
+                  <option>Rechazada</option>
+                </select>
+                  </div>
+
+              <div class="col-lg-3 col-md-6">
+                <label for="inputState">Categoria</label>
+                <select id="inputState" class="form-control">
+                  <option selected=""></option>
+                  <option>Cultura</option>
+                  <option>Ciencia</option>
+                  <option>Deportes</option>
+                  <option>Arte</option>
+                </select>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                    <label for="startDate">Fecha Inicial</label>
+                    <input id="startDate" class="form-control" type="date">
+                    <span id="startDateSelected"></span>
+              </div>
+
+              <div class="col-lg-3 col-sm-6">
+                    <label for="endDate">Fecha Final</label>
+                    <input id="endDate" class="form-control" type="date">
+                    <span id="endDateSelected"></span>
+              </div>
+                
+            </div>
+          </form>
+        </div>
+            <div class="row gy-3 justify-content-center">
+              <button class="w-50 btn btn-dark btn-lg" type="submit">Listar</button>
+            </div> 
+      </div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Titulo</th>
+            <th>Previsualizacion</th>
+            <th>Escritor</th>
+            <th>Categoria</th>
+            <th>Fecha publicacion</th>
+            <th>Estado</th>
+            <th>Ver</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Prueba</td>
+            <td>Noticia de prueba, se me olvido como sacar el lorem</td>
+            <td>yoni seque poner</td>
+            <td>Cultura</td>
+            <td>22-02-2022</td>
+            <td style="color: green;">Aprovado</td>
+            <td><button type="button" class="btn btn-outline-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"></path>
+<path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"></path>
+</svg>
+              <span class="visually-hidden">Button</span>
+            </button></td>
+          </tr>
+          <tr>
+            <td>Prueba2</td>
+            <td>Noticia de prueba, se me olvido como sacar el lorem</td>
+            <td>yoni seque poner</td>
+            <td>Cultura</td>
+            <td>22-02-2022</td>
+            <td style="color: red;">Rechazada</td>
+            <td><button type="button" class="btn btn-outline-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"></path>
+<path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"></path>
+</svg>
+              <span class="visually-hidden">Button</span>
+            </button></td>
+          </tr>
+          <tr>
+            <td>Prueba3</td>
+            <td>Noticia de prueba, se me olvido como sacar el lorem</td>
+            <td>yoni seque poner</td>
+            <td>Cultura</td>
+            <td>12-07-2022</td>
+            <td style="color: blue;">Espera</td>
+            <td><button type="button" class="btn btn-outline-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"></path>
+<path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"></path>
+</svg>
+              <span class="visually-hidden">Button</span>
+            </button></td>
+          </tr>
+          <tr>
+            <td>Prueba4</td>
+            <td>Noticia de prueba, se me olvido como sacar el lorem</td>
+            <td>yoni seque poner</td>
+            <td>Cultura</td>
+            <td>12-07-2022</td>
+            <td style="color: red;">Rechazada</td>
+            <td><button type="button" class="btn btn-outline-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+<path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"></path>
+<path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"></path>
+</svg>
+              <span class="visually-hidden">Button</span>
+            </button></td>
+          </tr>
+          
+        </tbody>
+        <tfoot>
+          <tr>
+            
+          </tr>
+        </tfoot>
+      </table>
+     </article>
+  </main>
+
+  </body>
+  <script src="https://kit.fontawesome.com/ca8234568d.js" crossorigin="anonymous">
+  </script>
+</html>
