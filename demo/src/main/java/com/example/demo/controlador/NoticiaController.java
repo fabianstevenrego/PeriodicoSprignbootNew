@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.modelo.CategoriaNoticia;
 import com.example.demo.modelo.Noticia;
+import com.example.demo.repositorio.CategoriaNoticiaRepository;
 import com.example.demo.repositorio.NoticiaRepository;
 
 @RestController
@@ -24,12 +25,23 @@ import com.example.demo.repositorio.NoticiaRepository;
 public class NoticiaController {
     @Autowired
     private NoticiaRepository noticiaRepository;
+    private CategoriaNoticiaRepository categoriaNoticiaRepository;
 
     @GetMapping("/listar")
     public List<Noticia> getNoticiaAll() {
 
         return noticiaRepository.findAll();
     }
+
+    @GetMapping("/{id}/cat")
+	public List<CategoriaNoticia> noticas(@PathVariable Integer id){
+		Optional<Noticia>noticia=noticiaRepository.findById(id);
+		if(noticia.isPresent()) {
+			return noticia.get().getCategorias();
+		}
+		return null;
+	}
+
 
     @GetMapping("/{id}/categorias")
     public List<CategoriaNoticia> categorias(@PathVariable Integer id) {

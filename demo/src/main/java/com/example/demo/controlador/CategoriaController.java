@@ -12,8 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.modelo.Categoria;
 import com.example.demo.modelo.CategoriaNoticia;
-import com.example.demo.modelo.Noticia;
-import com.example.demo.repositorio.CategoriaNoticiaRepository;
 import com.example.demo.repositorio.CategoriaRepository;
 
 @RestController
