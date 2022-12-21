@@ -29,13 +29,18 @@ function cargadoInicial(){
 }
 function postNoticia(){
     var url = 'http://localhost:8088/noticias/postNoticia';
+    var contenido = CKEDITOR.instances['idcontenidoNoticia'].getData();
+    console.log("contenido"+contenido)
+    const fecha = new Date();
+const timestamp = fecha .getTime();
     var data = {
         id: "",
         titulo: document.getElementById("idTituloNoticia").value,
-        contenido: document.getElementById("idcontenidoNoticia").value,
-        id_usuario: 1,
+        contenido:contenido,//document.getElementById("idcontenidoNoticia").value,
+        id_usuario:"1",
         estado: "espera",
-        url_imagen: document.getElementById("idImagen").value
+        url_imagen: document.getElementById("idImagen").value,
+        fecha:timestamp
     };
     post(url,data);
     document.getElementById("miForm").reset();

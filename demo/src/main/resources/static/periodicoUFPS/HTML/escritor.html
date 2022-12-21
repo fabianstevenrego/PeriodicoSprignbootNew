@@ -32,7 +32,8 @@
       }
     </style>
 
-    
+    <script src="../ckeditor_4.20.1_standard/ckeditor/ckeditor.js"></script>
+     
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
@@ -80,8 +81,8 @@
               </div>
               <div class="col-lg-12 col-md-12">
                 <label for="exampleFormControlTextarea1">Contenido Noticia</label>
-                <textarea class="form-control" id="idcontenidoNoticia" rows="3"></textarea>
-              </div>
+                <textarea class="form-control" name="idcontenidoNoticia" id="idcontenidoNoticia" rows="3"></textarea>
+                  </div>
               
                  
             </div>
@@ -100,6 +101,10 @@
   </body>
   
   <script src="../js/main.js" crossorigin="anonymous"></script>
+  
   <script src="https://kit.fontawesome.com/ca8234568d.js" crossorigin="anonymous">
+  </script>
+  <script>
+  javascript:CKEDITOR.replace("idcontenidoNoticia");
   </script>
 </html>

@@ -48,7 +48,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 				"/blog.css/**",
 				"/Css/**",
 				"/img/**",
-				"/periodicoUFPS/**").permitAll()
+				"/periodicoUFPS/**",
+				"/noticias/**").permitAll()
 		.anyRequest().authenticated()
 		.and()
 		.formLogin()
@@ -61,7 +62,10 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		.logoutRequestMatcher(new AntPathRequestMatcher("/logout"))
 		.logoutSuccessUrl("/login?logout")
 		.permitAll();
+		http.csrf().disable();
 	}
+
+	
 }
 
 

@@ -33,24 +33,7 @@ public class NoticiaController {
         return noticiaRepository.findAll();
     }
 
-    @GetMapping("/{id}/cat")
-	public List<CategoriaNoticia> noticas(@PathVariable Integer id){
-		Optional<Noticia>noticia=noticiaRepository.findById(id);
-		if(noticia.isPresent()) {
-			return noticia.get().getCategorias();
-		}
-		return null;
-	}
-
-
-    @GetMapping("/{id}/categorias")
-    public List<CategoriaNoticia> categorias(@PathVariable Integer id) {
-        Optional<Noticia> noticia = noticiaRepository.findById(id);
-        if (noticia.isPresent()) {
-            return noticia.get().getCategorias();
-        }
-        return null;
-    }
+   
 
     @GetMapping("/{id}")
     public Noticia getNoticiabyId(@PathVariable Integer id) {
@@ -65,7 +48,7 @@ public class NoticiaController {
 
     }
 
-    @PostMapping
+    @PostMapping("/postNoticia")
 	public Noticia postProductos(@RequestBody Noticia noticia) {
 		
 		noticiaRepository.save(noticia);

@@ -33,21 +33,12 @@ public class Noticia {
 
 
     @JsonIgnore
-	@OneToMany(mappedBy = "noticia")
-	private List<CategoriaNoticia> categorias;
-    
+	
 
-    @ManyToMany(fetch = FetchType.EAGER,cascade = CascadeType.ALL)
-	@JoinTable(
-			name = "noticias_categorias",
-			joinColumns = @JoinColumn(name = "noticia_id",referencedColumnName = "id"),
-			inverseJoinColumns = @JoinColumn(name = "categoria_id",referencedColumnName = "id_categoria")
-			)
-	private Collection<Categoria> listcategorias;
     
     
     public Noticia(Integer id, String titulo, String contenido, Integer id_usuario, String estado, String url_imagen,
-            Timestamp fecha, List<CategoriaNoticia> categorias, Collection<Categoria> listcategorias) {
+            Timestamp fecha) {
         this.id = id;
         this.titulo = titulo;
         this.contenido = contenido;
@@ -55,15 +46,8 @@ public class Noticia {
         this.estado = estado;
         this.url_imagen = url_imagen;
         this.fecha = fecha;
-        this.categorias = categorias;
-        this.listcategorias = listcategorias;
     }
-    public Collection<Categoria> getListcategorias() {
-        return listcategorias;
-    }
-    public void setListcategorias(Collection<Categoria> listcategorias) {
-        this.listcategorias = listcategorias;
-    }
+    
     public Noticia() {
     }
     public Integer getId() {
@@ -101,12 +85,6 @@ public class Noticia {
     }
     public void setUrl_imagen(String url_imagen) {
         this.url_imagen = url_imagen;
-    }
-    public List<CategoriaNoticia> getCategorias() {
-        return categorias;
-    }
-    public void setCategorias(List<CategoriaNoticia> categorias) {
-        this.categorias = categorias;
     }
     public Timestamp getFecha() {
         return fecha;
