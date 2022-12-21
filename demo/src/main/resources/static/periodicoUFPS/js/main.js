@@ -6,7 +6,6 @@ function cargadoInicial(){
     fetch(url)
 .then((resp) => resp.json())
 .then(function(data) {
-    console.log("entrooooo");
     var array = data;
     var elem = document.querySelector('#navCategoria');
     console.log(array);
@@ -27,20 +26,26 @@ function cargadoInicial(){
 });
     
 }
+
 function postNoticia(){
+    var array=document.getElementById("idImagen").files; 
+    
+    console.log("aqui->"+array);
     var url = 'http://localhost:8088/noticias/postNoticia';
+    postImagen();
     var contenido = CKEDITOR.instances['idcontenidoNoticia'].getData();
     console.log("contenido"+contenido)
     const fecha = new Date();
-const timestamp = fecha .getTime();
+const timestamp = fecha.getTime();
     var data = {
         id: "",
         titulo: document.getElementById("idTituloNoticia").value,
         contenido:contenido,//document.getElementById("idcontenidoNoticia").value,
         id_usuario:"1",
         estado: "espera",
-        url_imagen: document.getElementById("idImagen").value,
-        fecha:timestamp
+        url_imagen: "../data/"+array[0].name,
+        fecha:timestamp,
+        id_categoria:document.getElementById("SelectCategoria").value
     };
     post(url,data);
     document.getElementById("miForm").reset();
@@ -58,6 +63,25 @@ function post(url,data){
       }).then(res => res.json())
       .catch(error => console.error('Error:', error))
       .then(response => console.log('Success:', response));
+}
+
+function postImagen(){
+    var input = document.querySelector('input[type="file"]')
+    var data = new FormData()
+    data.append('file', input.files[0])
+    fetch('http://localhost:8088/noticias/postNoticiaImg', {
+        method: 'POST',
+        body: data
+    })
+    .then(response => Promise.all([response.status, response.json()]))
+    .then(function([status, myJson]) {
+        if (status == 200) {
+            console.log("succeed!");
+        } else {
+            console.log("failed!");
+        }
+    })
+    .catch(error => console.log(error.message));
 }
 
 function obtenernoticias(ruta){
@@ -209,4 +233,27 @@ function cargarNoticiaFeed(data,it){
             msnry.layout();
         }
         }
+}
+
+
+function cargadoCategorias(){
+
+    const url = "http://localhost:8088/categoria/listar";
+   
+    fetch(url)
+.then((resp) => resp.json())
+.then(function(data) {
+    var array = data;
+    var elem = document.querySelector('#SelectCategoria');
+    console.log(array);
+    
+    for (var i = 0; i <data.length; i++) {
+        elem.innerHTML=elem.innerHTML+"<option value='"+array[i].id_categoria+"'>"+array[i].nombre+"</option>";
+       
+     }
+})
+.catch(function(error) {
+  console.log(error);
+});
+    
 }

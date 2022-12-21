@@ -340,7 +340,7 @@
          "contenido": "No aguantó dos tiros en la frente",
          "id_usuario": 1,
          "estado": "aprobado",
-         "url_imagen": "https://ymcabogota.org/wp-content/uploads/2020/06/IMG_5183-2.jpg"
+         "url_imagen": "../data/petro.jpg"
       },
       "categoria": {
          "id_categoria": 2,

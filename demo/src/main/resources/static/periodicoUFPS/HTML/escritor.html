@@ -70,19 +70,24 @@
           <form id="miForm">
             <div class="row">
 
-              <div class="col-lg-6 col-sm-12">
-                  <label for="startDate">Titulo</label>
+              <div class="col-lg-4 col-sm-12">
+                  <label for="startDate" class="form-label">Titulo</label>
                   <input type="text" class="form-control" id="idTituloNoticia" placeholder="Titulo de la noticia">
               </div>
-              <div class="col-lg-6 col-md-12">
-                <label for="startDate">Link Imagen</label>
-                  <input type="text" class="form-control" id="idImagen" placeholder="Imagen">
-              
+              <div class="col-lg-4 col-md-12">
+                <label for="formFile" class="form-label">Portada</label>
+                <input class="form-control" type="file" id="idImagen"  accept="image/*" >
+              </div>
+              <div class="col-lg-4 col-md-12">
+                <label for="formFile" class="form-label">Categoria</label>
+                <select class="form-select" aria-label="Seleccione Categoria" id="SelectCategoria">
+                  <option value=""></option>
+                </select>
               </div>
               <div class="col-lg-12 col-md-12">
-                <label for="exampleFormControlTextarea1">Contenido Noticia</label>
+                <label for="exampleFormControlTextarea1" class="form-label">Contenido Noticia</label>
                 <textarea class="form-control" name="idcontenidoNoticia" id="idcontenidoNoticia" rows="3"></textarea>
-                  </div>
+              </div>
               
                  
             </div>
@@ -106,5 +111,6 @@
   </script>
   <script>
   javascript:CKEDITOR.replace("idcontenidoNoticia");
+  javascript:cargadoCategorias();
   </script>
 </html>

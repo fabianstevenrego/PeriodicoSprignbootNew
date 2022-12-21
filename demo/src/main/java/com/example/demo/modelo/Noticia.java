@@ -28,7 +28,7 @@ public class Noticia {
 	private String estado;
 	private String url_imagen;
     private Timestamp fecha;
-    
+    private Integer id_categoria;
     
 
 
@@ -38,7 +38,7 @@ public class Noticia {
     
     
     public Noticia(Integer id, String titulo, String contenido, Integer id_usuario, String estado, String url_imagen,
-            Timestamp fecha) {
+            Timestamp fecha,Integer id_categoria) {
         this.id = id;
         this.titulo = titulo;
         this.contenido = contenido;
@@ -46,6 +46,7 @@ public class Noticia {
         this.estado = estado;
         this.url_imagen = url_imagen;
         this.fecha = fecha;
+        this.id_categoria = id_categoria;
     }
     
     public Noticia() {
@@ -92,7 +93,12 @@ public class Noticia {
     public void setFecha(Timestamp fecha) {
         this.fecha = fecha;
     }
-	
+	public Integer getId_categoria() {
+        return id_categoria;
+    }
+    public void setId_categoria(Integer id_categoria) {
+        this.id_categoria = id_categoria;
+    }
 	
 
 
