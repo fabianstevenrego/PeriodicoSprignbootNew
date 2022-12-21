@@ -1,8 +1,7 @@
 package com.example.demo.modelo;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
-import java.util.Collection;
-import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
@@ -10,15 +9,14 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
+import javax.persistence.ManyToOne;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import lombok.Data;
+@Data
 @Entity
-public class Noticia {
+public class Noticia implements Serializable{
     @Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
@@ -28,17 +26,16 @@ public class Noticia {
 	private String estado;
 	private String url_imagen;
     private Timestamp fecha;
-    private Integer id_categoria;
-    
-
-
+   
     @JsonIgnore
-	
-
+    @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private Categoria categoria;
+    
+    private Integer id_categoria;
     
     
     public Noticia(Integer id, String titulo, String contenido, Integer id_usuario, String estado, String url_imagen,
-            Timestamp fecha,Integer id_categoria) {
+            Timestamp fecha, Integer id_categoria, Categoria categoria) {
         this.id = id;
         this.titulo = titulo;
         this.contenido = contenido;
@@ -47,8 +44,8 @@ public class Noticia {
         this.url_imagen = url_imagen;
         this.fecha = fecha;
         this.id_categoria = id_categoria;
+        this.categoria = categoria;
     }
-    
     public Noticia() {
     }
     public Integer getId() {

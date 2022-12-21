@@ -20,9 +20,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.example.demo.modelo.CategoriaNoticia;
 import com.example.demo.modelo.Noticia;
-import com.example.demo.repositorio.CategoriaNoticiaRepository;
 import com.example.demo.repositorio.NoticiaRepository;
 
 @RestController
@@ -31,15 +29,12 @@ import com.example.demo.repositorio.NoticiaRepository;
 public class NoticiaController {
     @Autowired
     private NoticiaRepository noticiaRepository;
-    private CategoriaNoticiaRepository categoriaNoticiaRepository;
 
     @GetMapping("/listar")
     public List<Noticia> getNoticiaAll() {
 
         return noticiaRepository.findAll();
     }
-
-   
 
     @GetMapping("/{id}")
     public Noticia getNoticiabyId(@PathVariable Integer id) {
