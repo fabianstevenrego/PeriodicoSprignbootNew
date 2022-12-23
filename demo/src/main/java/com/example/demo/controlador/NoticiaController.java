@@ -58,7 +58,7 @@ public class NoticiaController {
     @PostMapping("/postNoticiaImg")
 	public void postNoticiaImg( @RequestParam("file") MultipartFile imagen) {
 		if(!imagen.isEmpty()){
-            Path directorio = Paths.get("demo//src//main//resources//static/periodicoUFPS/data");
+            Path directorio = Paths.get("src//main//resources//static/periodicoUFPS/data");
             String RutaAbs = directorio.toFile().getAbsolutePath();
             try {
                 byte[] bytesImg = imagen.getBytes();

@@ -26,16 +26,16 @@ public class Noticia implements Serializable{
 	private String estado;
 	private String url_imagen;
     private Timestamp fecha;
-   
+    private Integer id_categoria;
     @JsonIgnore
     @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private Categoria categoria;
     
-    private Integer id_categoria;
+    
     
     
     public Noticia(Integer id, String titulo, String contenido, Integer id_usuario, String estado, String url_imagen,
-            Timestamp fecha, Integer id_categoria, Categoria categoria) {
+            Timestamp fecha, Integer id_categoria) {
         this.id = id;
         this.titulo = titulo;
         this.contenido = contenido;
@@ -44,7 +44,6 @@ public class Noticia implements Serializable{
         this.url_imagen = url_imagen;
         this.fecha = fecha;
         this.id_categoria = id_categoria;
-        this.categoria = categoria;
     }
     public Noticia() {
     }
